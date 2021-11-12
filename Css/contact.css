@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.crt{
+    opacity:80%;
+}
+h1{
+    font-size:64px;
+    position:absolute;
+    top:2%;
+    left:43%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.have{
+    font-size:64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position:absolute;
+    top:13%;
+    left:30%;
+}
+.loc{
+    position:absolute;
+    top:27%;
+    left:33%;
+}
+.location{
+    position:absolute;
+    top:27.5%;
+    left:34.5%;
+    font-size: 24px;
+}
+.call{
+    position:absolute;
+    top:27%;
+    right:40%;
+}
+.number{
+    font-size: 24px;
+    position:absolute;
+    top:26.5%;
+    right:30%;
+}
+.name{
+    width:600px;
+    height:60px;
+    position:absolute;
+    top:35%;
+    left:32%;
+    border-radius: 10px;
+    border:none;
+    font-size: 24px;
+}
+.mail{
+    width:600px;
+    height:60px;
+    position:absolute;
+    top:48%;
+    left:32%;
+    border-radius: 10px;
+    border:none;
+    font-size: 24px;
+}
+.msg{
+    width:600px;
+    height:150px;
+    position:absolute;
+    top:61%;
+    left:32%;
+    border-radius: 10px;
+    border:none;
+    font-size: 24px;
+}
+input[type="texto"]::placeholder{
+    font-size:24px;
+    position:absolute;
+    top:25%;
+    left:5%;
+}
+input[type="textt"]::placeholder{
+    font-size:24px;
+    position:absolute;
+    top:25%;
+    left:5%;
+}
+input[type="text"]::placeholder{
+    font-size:24px;
+    position:absolute;
+    top:10%;
+    left:5%;
+}
+.contain{
+    width:60px;
+    height:40px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top:4%;
+    border-radius: 0px 10px 10px 0px;
+    z-index:1;
+}
+.backor{
+    position:absolute;
+    top:4%;
+    left:1%;
+    z-index: 2;
+}
+button{
+    height:60px;
+    width:400px;
+    font-size:24px;
+    position:absolute;
+    top:90%;
+    left:38%;
+    z-index:2;
+    border:none;
+    background-color:#198D06;
+    border-radius: 20px;
+    color:white;
+}

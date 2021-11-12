@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/ipo.css">
+    <script>
+        var data=0;
+        document.getElementById("root").innerHTML=data;
+        function decrease(){
+            if(data<=0){
+                document.getElementById("root").innerHTML=0;
+            }else{
+                data=data-1;
+                document.getElementById("root").innerHTML=data;
+            }
+            
+        }
+        function increase(){
+            if(data>=10){
+                document.getElementById("root").innerHTML=10;
+            }else{
+                data=data+1;
+            document.getElementById("root").innerHTML=data;
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="up"><img src="images/ipod.png" height="600px" width="600px" id="black"></div>
+    <div class="hdo">
+        <div class="nav">
+            <ul class="navb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logoo">
+        <img src="images/logo.png"  height="84px" width="110px">
+    </div>
+    <div class="logot">
+        <a href="#"><img src="images/phosh.png" height="60px" width="60px"></a>
+    </div>
+    <div class="box"></div>
+    <div class="topic">
+        <h1 class="head">Airpod:</h1>
+        <p class="name">Apple AirpodBoaster@r78.</p>
+        <!-- <p class="namet">R-lower123</p> -->
+        <p class="price">Price=12500 <span class="cross">15000</span></p>
+        <button type="button" class="buy">Buy</button>
+        <p class="spec">Specification:</p>
+        <p class="speco">Good Sound Quality With DolbyAtom.</p>
+        <p class="spect">Water and sweat resistance.</p>
+        <p class="specr"> 3Years Warrenty.</p>
+        <p class="specf">Battery Backup last for 20+hours.</p>
+    </div>
+    <div class="card">
+        <div class="container">
+                <button class="dec" onclick="decrease()" class="decre">-</button>
+            <h2 id="root">0</h2>
+                <button class="inc" onclick="increase()" class="incre">+</button>
+            </div>
+        </div>
+        <button type="button" class="add">Add to card</button>
+    </div>
+</body>
+</html>

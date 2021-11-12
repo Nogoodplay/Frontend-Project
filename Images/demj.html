@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            padding-left: 30px;
+        }
+        .pin{
+            height:37px;
+            width:40px;
+            background-color: rgb(213, 17, 219);
+            padding-left: 30px;
+        }
+        .re{
+            height:37px;
+            width:40px;
+            background-color: rgb(219, 17, 17);
+            padding-left: 30px;
+        }
+        .bl{
+            height:37px;
+            width:40px;
+            background-color: rgb(37, 17, 219);
+            padding-left: 30px;
+        }
+        .black{
+            height:37px;
+            width:40px;
+            position: absolute;
+            top:8%;
+            left:10%;
+            background-color:black;
+        }
+        .blue{
+            height:37px;
+            width:40px;
+            position: absolute;
+            top:8%;
+            left:15%;
+            background-color:blue
+        }
+        .red{
+            height:37px;
+            width:40px;
+            position: absolute;
+            top:8%;
+            left:20%;
+            background-color:red;
+        }
+        .pink{
+            height:37px;
+            width:40px;
+            position: absolute;
+            top:8%;
+            left:25%;
+            background-color:rgb(213, 17, 219);
+        }
+        .add{
+            height:37px;
+            width:158px;
+            font-size: 20px;
+            position: relative;
+            left:10%;
+            top:28%;
+            background-color:aqua;
+        }
+        a{
+            background-color:blueviolet;
+            position: absolute;
+            top:10%;
+            left:50%;
+        }
+        #boxer{
+            height:260px;
+            width:400px;
+            background-color:blue;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: scale(0);
+        }
+        #boxer::after{
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <img id="black" src="headphone.png" height="650px" width="477px"  >
+    <div>
+        <button onclick="change1()" class="red"></button>
+        <button onclick="change2()" class="blue"></button>
+        <button onclick="change3()" class="black"></button>
+        <button onclick="change4()" class="pink"></button>
+        <div id="root"></div>
+        <button onclick="addtocard()" class="add">Add to card</button>
+        <a href="#"><img src="card.png" height="50px" width="90px"></a>
+        <div id="boxer" > </div>
+    </div>
+    <script>
+        function change1() {
+            document.getElementById('black').src="redheadphone.png";
+        }
+        function change2() {
+            document.getElementById('black').src="blueoheadphone.png";
+        }
+        function change3() {
+            document.getElementById('black').src="headphone.png";
+        }
+        function change4() {
+            document.getElementById('black').src="pinkheadphones.png";
+        }
+        function addtocard() {
+            document.getElementById('boxer').css="#boxer::after";
+        }
+    </script>
+</body>
+</html>

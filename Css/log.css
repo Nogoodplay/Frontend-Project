@@ -1,0 +1,205 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #9A8787;
+}
+.containero{
+    width:550px;
+    height:400px;
+    background-color:white;
+    position:absolute;
+    top:12%;
+    left:30%;
+    border-radius: 30px;
+    z-index:2;
+    box-shadow: 10px 10px #776969;
+}
+.containert{
+    width:450px;
+    height: 200px;
+    background-color:white;
+    position:absolute;
+    top:60%;
+    left:33.5%;
+    z-index: 1;
+    border-radius: 30px;
+}
+.frontlogo{
+    position:absolute;
+    top:0.8%;
+    left:43%;
+    z-index:3;
+}
+.log{
+    font-size:48px;
+    position:absolute;
+    top:23%;
+    left:40%;
+    z-index: 4;
+    font-family: Roboto;
+}
+.em{
+    position:absolute;
+    top:35%;
+    left:36%;
+    z-index:4;
+    height:50px;
+    width:400px;
+    font-size: 20px;
+    background-color: #928787;
+    color:black;
+    border:none;
+}
+input[type="text"]::placeholder{
+    position: relative;
+    top:5%;
+    left:9%;
+    color:black;
+}
+.logoco{
+    height:50px;
+    width:50px;
+    background-color: #4D4848;
+    position:absolute;
+    top:35%;
+    left:33%;
+    z-index:4;
+}
+.emaillogo{
+    position:absolute;
+    top:36%;
+    left:33.5%;
+    z-index:4;
+}
+.passw{
+    position:absolute;
+    top:46%;
+    left:36%;
+    z-index:4;
+    height:50px;
+    width:400px;
+    font-size: 20px;
+    background-color: #928787;
+    color:black;
+    border:none;
+}
+.logocon{
+    height:50px;
+    width:50px;
+    background-color: #4D4848;
+    position:absolute;
+    top:46%;
+    left:33%;
+    z-index:4;
+}
+input[type="password"]::placeholder{
+    position: relative;
+    top:5%;
+    left:9%;
+    color:black;
+}
+.check{
+    position:absolute;
+    top:58%;
+    left:33%;
+    z-index: 4;
+    border:none;
+}
+.remember{
+    font-size:18px;
+    font-family: Roboto;
+    font-weight: regular;
+    position:absolute;
+    top:57.2%;
+    left:34.3%;
+    z-index: 4;
+}
+.forget{
+    z-index:4;
+    position:absolute;
+    top:57%;
+    left:54%;
+    font-size: 18px;
+}
+.forget a{
+    text-decoration:none;
+}
+.passwordlogo{
+    position:absolute;
+    top:47%;
+    left:33.5%;
+    z-index:4;
+}
+button{
+    height:40px;
+    width:170px;
+    font-size:18px;
+    position:absolute;
+    top:70%;
+    left:42%;
+    z-index: 2;
+    border:none;
+    background-color:tomato;
+    color:white;
+}
+.lno{
+    height:3px;
+    width:200px;
+    position:absolute;
+    top:78%;
+    left:33.5%;
+    background-color:black;
+    z-index: 2;
+}
+.lnt{
+    height:3px;
+    width:200px;
+    position:absolute;
+    top:78%;
+    right:37.2%;
+    background-color:black;
+    z-index: 2;
+}
+.or{
+    position:absolute;
+    top:77%;
+    left:47.5%;
+    z-index: 2;
+    font-size: 18px;
+}
+.sign{
+    position:absolute;
+    top:81%;
+    left:44%;
+    z-index: 2;
+    font-size: 18px;
+}
+.sign a{
+    text-decoration:none;
+}
+.small{
+    width:190px;
+    height:60px;
+    background-color: white;
+    position: absolute;
+    top:3%;
+    border-radius:0px 30px 30px 0px;
+    z-index: 1;
+}
+.back{
+    position:absolute;
+    top:3%;
+    left:0.5%;
+    z-index: 3;
+}
+.Go{
+    font-size:30px;
+    font-weight:bold;
+    position:absolute;
+    top:4.5%;
+    left:6%;
+    z-index:2;
+}

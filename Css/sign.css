@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#9A8787;
+}
+.container{
+    width:600px;
+    height: 650px;
+    background-color:white;
+    position: absolute;
+    top:5%;
+    left:25%;
+    border-radius: 10px;
+}
+.title{
+    font-size:46px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#267512;
+    position: absolute;
+    top:9%;
+    left:39%;
+    z-index: 1;
+}
+.name{
+    height:40px;
+    width:240px;
+    background-color: #C4C4C4;
+    font-size:18px;
+    position: absolute;
+    top:24%;
+    left:26.5%;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+}
+.Surname{
+    height:40px;
+    width:240px;
+    background-color: #C4C4C4;
+    font-size:18px;
+    position: absolute;
+    top:24%;
+    left:45%;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+}
+input[type="text"]::placeholder{
+    position: relative;
+    left:8%;
+    color:black;
+}
+.email{
+    height:40px;
+    width:520px;
+    background-color: #C4C4C4;
+    font-size:18px;
+    position: absolute;
+    top:34%;
+    left:26.5%;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+}
+.pas{
+    height:40px;
+    width:520px;
+    background-color: #C4C4C4;
+    font-size:18px;
+    position: absolute;
+    top:44%;
+    left:26.5%;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+}
+.pasc{
+    height:40px;
+    width:520px;
+    background-color: #C4C4C4;
+    font-size:18px;
+    position: absolute;
+    top:54%;
+    left:26.5%;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+}
+input[type="password"]::placeholder{
+    position: relative;
+    left:8%;
+    color:black;
+}
+button{
+    height:45px;
+    width:400px;
+    font-size:18px;
+    position:absolute;
+    top:65%;
+    left:30%;
+    z-index: 2;
+    border:none;
+    background-color:#267512;
+    color:white;
+}
+.al{
+    position: absolute;
+    top:73%;
+    left:39%;
+    z-index: 2;
+    font-size:18px;
+}
+.log{
+    position: absolute;
+    top:77%;
+    left:42%;
+    z-index: 2;
+    font-size:18px;
+}
+.log a{
+    text-decoration:none;
+}
+.small{
+    width:190px;
+    height:60px;
+    background-color: white;
+    position: absolute;
+    top:3%;
+    border-radius:0px 30px 30px 0px;
+    z-index: 1;
+}
+.back{
+    position:absolute;
+    top:3%;
+    left:0.5%;
+    z-index: 3;
+}
+.Go{
+    font-size:30px;
+    font-weight:bold;
+    position:absolute;
+    top:4.5%;
+    left:6%;
+    z-index:2;
+}

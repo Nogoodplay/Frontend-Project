@@ -1,0 +1,1868 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.sections{
+    scroll-snap-type: y mandatory;
+    overflow-y:y scroll;
+}
+.homepagephoto{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    z-index:3;
+    height:60px;
+    width:60px;
+    display:none;
+}
+.topic{
+    position: absolute;
+    top:30%;
+    left:10%;
+    color:#FEFCFF;
+    -webkit-text-stroke:1px  #605755;
+    font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.lno{
+    position:relative;
+    right:40%;
+    background-color:rgb(28, 81, 194);
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 30px;
+    transition:100ms ease-in;
+}
+.lno:hover{
+    background-color:seagreen;
+    color:black;
+}
+.lno:focus{
+    background-color:rgb(221, 23, 23);
+    color:white;
+}
+.lnt{
+    position:relative;
+    right:30%;
+    background-color:rgb(28, 81, 194);
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 30px;
+    transition:100ms ease-in;
+}
+.lnt:hover{
+    background-color:seagreen;
+    color:black;
+}
+.lnt:focus{
+    background-color:rgb(221, 23, 23);
+    color:white;
+}
+.lnf{
+    position:relative;
+    right:20%;
+    background-color:rgb(28, 81, 194);
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 30px;
+    transition:100ms ease-in;
+}
+.lnf:hover{
+    background-color:seagreen;
+    color:black;
+}
+.lnf:focus{
+    background-color:rgb(221, 23, 23);
+    color:white;
+}
+.boxo{
+    height:108px;
+    width: 1520px;
+    background-color:#111A2C;
+    position: absolute;
+    top:0;
+    left:0;
+    border:10px solid #6B1B1B;
+    z-index:1;
+}
+ul.nav{
+    list-style-type: none;
+    display:flex;
+    position: absolute;
+    top:25%;
+    right:7%;
+    font-size:36px;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    position: absolute;
+    top:2%;
+    left:2%;
+    z-index: 2;
+}
+.logoone{
+    position: absolute;
+    top:3%;
+    right:3%;
+    z-index: 2;
+}
+.pagetwo{
+    margin-top:-10px;
+}
+.pagethree{
+    margin-top:-10px;
+}
+.pagefour{
+    margin-top:-10px;
+}
+.pagefive{
+    margin-top:-10px;
+}
+.pagesix{
+    margin-top:-10px;
+}
+.pageseven{
+    margin-top:-10px;
+}
+.pageeight{
+    margin-top:-10px;
+}
+.pageabout{
+    margin-top:-10px;
+}
+.homedes{
+    z-index:3;
+    font-size:100px;
+    color:#14F500;
+    font-family:sen;
+    position:absolute;
+    top:340%;
+    left:11%;
+}
+.and{
+    color:#F8D311;
+}
+.noone{
+    position: absolute;
+    left:43%;
+    top:570%;
+    padding:18px 45px;
+    border-radius:40%;
+    font-size: 26px;
+    color:white;
+    background-color:#2E923E;
+    border:none;
+}
+
+
+
+
+
+/* page2 */
+.headphones{
+    font-size:80px ;
+    position: absolute;
+    top:145%;
+    left:10%;
+    font-family:sen;
+    color:#2C2B2C;
+}
+.hdp{
+    height:650px;
+    width:450px;
+    background-color: #2C2B2C;
+    position:absolute;
+    top:165%;
+    left:8%;
+    border-radius: 80px;
+    z-index: 1;
+}
+.airpod{
+    font-size:80px ;
+    position: absolute;
+    top:145%;
+    right:15%;
+    font-family:sen;
+    color:#EC5A43;
+}
+.apd{
+    height:650px;
+    width:450px;
+    background-color: #b94d41;
+    position:absolute;
+    top:165%;
+    right:8%;
+    border-radius: 80px;
+    background-color:#EC5A43;
+}
+.topi{
+    position: absolute;
+    top:210%;
+    left:10%;
+    font-size: 32px;
+    color:white;
+    z-index: 2;
+}
+.imghd{
+    position: absolute;
+    top:160%;
+    left:13%;
+    z-index: 2;
+}
+.imgip{
+    position: absolute;
+    top:160%;
+    left:58%;
+    z-index: 2;
+}
+.topicc{
+    position: absolute;
+    top:210%;
+    right:28%;
+    font-size: 32px;
+    color:white;
+    z-index: 2;
+}
+.spe{
+    position: absolute;
+    top:217%;
+    left:14%;
+    z-index: 2;
+    list-style-type: none;
+    font-size: 32px;
+    color:white;
+}
+.spec{
+    position: absolute;
+    top:217%;
+    right:12%;
+    z-index: 2;
+    list-style-type: none;
+    font-size: 32px;
+    color:white;
+}
+.quote{
+    position: absolute;
+    top:180%;
+    right:44.5%;
+    font-size: 32px;
+    color:#03A313;
+}
+.on{
+    position: absolute;
+    top:185%;
+    right:48%;
+    font-size: 32px;
+    color:#03A313;
+}
+.world{
+    position: absolute;
+    top:190%;
+    right:47.5%;
+    font-size: 32px;
+    color:#03A313;
+}
+.off{
+    position: absolute;
+    top:195%;
+    right:48%;
+    font-size: 32px;
+    color:#03A313;
+}
+.notwo{
+    position:absolute;
+    top:240%;
+    left:18%;
+    z-index: 2;
+    padding:15px 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+    transition: 150ms ease-in-out;
+}
+.notwo:hover{
+    background-color:rgb(45, 200, 211);
+    width:180px;
+    height:60px;
+}
+.nothree{
+    position:absolute;
+    top:240%;
+    right:16%;
+    z-index: 2;
+    padding:15px 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+    transition: 150ms ease-in-out;
+}
+.nothree:hover{
+    background-color:rgb(45, 200, 211);
+    width:180px;
+    height:60px;
+}
+
+
+
+/* page3 */
+.laptop{
+    position: absolute;
+    top:285%;
+    left:6%;
+    color:#E9C613;
+    font-size:92px;
+    font-family: 'Roboto', sans-serif;
+}
+.cno{
+    position: absolute;
+    top:305%;
+    left:11%;
+    color:#18631F;
+    font-size:72px;
+    -webkit-text-stroke:.5px rgb(212, 41, 41);
+}
+.cnt{
+    position: absolute;
+    top:315%;
+    left:14%;
+    color:#18631F;
+    font-size:72px;
+    -webkit-text-stroke:.5px rgb(212, 41, 41);
+}
+.cnr{
+    position: absolute;
+    top:325%;
+    left:13%;
+    color:#18631F;
+    font-size:72px;
+    -webkit-text-stroke:.5px rgb(212, 41, 41);
+}
+.nofour{
+    position:absolute;
+    top:343%;
+    left:35%;
+    z-index: 2;
+    padding:15px 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+}
+
+
+
+
+
+
+
+ 
+ /* page4 */
+.speak{
+    position: absolute;
+    top:420%;
+}
+.speak{
+    position: absolute;
+    top:422%;
+    font-size:144px;
+    left:5%;
+    color:#379616;
+    font-family: 'Roboto', sans-serif;
+}
+.sp{
+    position: absolute;
+    top:455%;
+    font-size:100px;
+    left:30%;
+    color:#CED122;
+    font-family: sen;
+}
+.dott{
+    color:#D10F0F;
+}
+.nofive{
+    position:absolute;
+    top:480%;
+    left:65%;
+    z-index: 2;
+    padding:15px 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+}
+
+
+
+
+/* page5 */
+.redo{
+    width:490px;
+    height:190px;
+    background-color: red;
+    z-index:1;
+    position: absolute;
+    top:570%;
+    left:2%;
+    border-radius: 40px;
+}
+.redt{
+    width:1200px;
+    height:202px;
+    background-color: red;
+    z-index:1;
+    position: absolute;
+    top:605%;
+    left:14%;
+    border-radius: 40px;
+}
+.shoe{
+    position: absolute;
+    top:572%;
+    left:5%;
+    font-size: 134px;
+    color:#B1CFD3;
+    z-index:2;
+    font-family: 'Roboto', sans-serif;
+}
+.sho{
+    position: absolute;
+    top:607%;
+    left:18%;
+    color:#B1CFD3;
+    font-size: 72px;
+    z-index: 2;
+}
+.sht{
+    position: absolute;
+    top:618%;
+    left:38%;
+    color:#B1CFD3;
+    font-size: 72px;
+    z-index: 2;
+}
+.good{
+    color:#01292F;
+}
+.nosix{
+    position:absolute;
+    top:645%;
+    left:65%;
+    z-index: 2;
+    padding:25px 60px;
+    border-radius: 40px;
+    font-size: 32px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+}
+
+
+
+/* page6 */
+.watch{
+    position: absolute;
+    top:705%;
+    left:4%;
+    font-size:120px;
+    color:#D6BDBD;
+}
+.wat{
+    position: absolute;
+    top:728%;
+    left:24%;
+    font-size:80px;
+    color:#4FB4CA;
+}
+.wats{
+    position: absolute;
+    top:742%;
+    left:30%;
+    font-size:80px;
+    color:#4FB4CA;
+}
+.noseven{
+    position:absolute;
+    top:763%;
+    left:70%;
+    z-index: 2;
+    padding:25px 60px;
+    border-radius: 40px;
+    font-size: 32px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+}
+
+
+
+
+/* page7 */
+.cloth{
+    font-size:96px;
+    color:#34342E;
+    position: absolute;
+    top:831%;
+    left:6%;
+    z-index:2;
+}
+.clo{
+    height:136px;
+    width:420px;
+    border-radius:30px;
+    position: absolute;
+    top:830%;
+    left:3%;
+    background-color:#E5E2EF;   
+    z-index:1;
+}
+.clt{
+    height:682px;
+    width:1108px;
+    border-radius:30px;
+    position: absolute;
+    top:850%;
+    left:19%;
+    background-color:#453C3C;   
+    z-index:1;
+    opacity: 60%;
+    z-index:2;
+}
+.cloo{
+    font-size:72px;
+    color:white;
+    position: absolute;
+    top:865%;
+    left:30%;
+    z-index:2;
+}
+.clot{
+    font-size:72px;
+    color:white;
+    position: absolute;
+    top:877%;
+    left:45%;
+    z-index:2;
+}
+.clor{
+    font-size:72px;
+    color:white;
+    position: absolute;
+    top:889%;
+    left:32%;
+    z-index:2;
+}
+.clof{
+    font-size:72px;
+    color:white;
+    position: absolute;
+    top:901%;
+    left:45%;
+    z-index:2;
+}
+.noeight{
+    position:absolute;
+    top:921%;
+    left:70%;
+    z-index: 2;
+    padding:25px 60px;
+    border-radius: 40px;
+    font-size: 32px;
+    color:#1C1E22;
+    background-color:#565FB1;
+    border:none;
+}
+.extra{
+    color:rgb(255, 0, 0);
+}
+
+
+
+/* page8 */
+.bags{
+    font-size:96px;
+    color:#D67E20;
+    position:absolute;
+    top:965%;
+    left:3%;
+}
+.bgo{
+    font-size:86px;
+    color:black;
+    position:absolute;
+    top:988%;
+    left:42%;
+}
+.bgt{
+    font-size:86px;
+    color:black;
+    position:absolute;
+    top:1002%;
+    left:37%;
+}
+.bgr{
+    font-size:86px;
+    color:black;
+    position:absolute;
+    top:1016%;
+    left:42%;
+}
+.nonine{
+    position:absolute;
+    top:1040%;
+    left:40%;
+    z-index: 2;
+    padding:25px 60px;
+    border-radius: 40px;
+    font-size: 32px;
+    color:white;
+    background-color:#35C91D;
+    border:none;
+}
+
+
+
+/* about page */
+.about{
+    font-size:150px;
+    position:absolute;
+    top:1100%;
+    left:2%;
+    color: crimson;
+}
+.logonames{
+    font-size:40px;
+    font-family:cursive;
+    position: absolute;
+    top:1125%;
+    left:5%;
+    color:darkgoldenrod;
+    border:3px solid grey;
+    background-color:rgb(41, 36, 36);
+}
+.maincontent{
+    font-size:40px;
+    font-family:cursive;
+    position: absolute;
+    top:1135%;
+    left:10%;
+    color:lawngreen;
+}
+.des{
+    font-size:25px;
+    position: absolute;
+    top:1145%;
+    left:5%;
+    color:rgb(228, 119, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.deso{
+    font-size:25px;
+    position: absolute;
+    top:1150%;
+    left:8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sym{
+    height: 300px;
+    width: 340px;
+    position:absolute;
+    top:1100%;
+    right:5%;
+}
+.twit{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:1241%;
+    left:50%;
+}
+.fb{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:1241%;
+    left:48%;
+}
+.ins{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:1241%;
+    left:52%;
+}
+.copy{
+    position:absolute;
+    top:1244%;
+    left:36%;
+}
+.followus{
+    position:absolute;
+    top:1241%;
+    left:42%;
+}
+
+
+
+/* MOBILE SETTING */
+@media only screen and (min-width:376px) and (max-width :426px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 240%;
+    }
+    .boxo{
+        width:1020px;
+    }
+    .menu{
+        position:absolute;
+        top:4%;
+        left:210%;
+        display:block;
+    }
+    .lno,.lnt,.lnf{
+        display:none;
+    }
+    
+    .logoone{
+        display: none;
+    }
+    .homepagephoto{
+        height: 1100px;
+        width: 1020px;
+    }
+    p.homedes{
+        font-size:70px;
+        position:absolute;
+        top:500%;
+        left:4%;
+    }
+    .noone{
+        position:absolute;
+        top:700%;
+        left:40%;
+    }
+    .pagetwo{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pagethree{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pagefour{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pagefive{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pagesix{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pageseven{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pageeight{
+        height: 1100px;
+        width: 1020px;
+    }
+    .pageabout{
+        height: 1100px;
+        width: 1020px;
+    }
+    .hdp{
+        height: 520px;
+        width: 400px;
+        position:absolute;
+        top:200%;
+        left:8%;
+    }
+    .quote{
+        display: none;
+    }
+    .on,.off,.world{
+        display: none;
+    }
+    .apd{
+        height: 520px;
+        width: 380px;
+        position:absolute;
+        top:200%;
+        left:140%;
+    }
+    .headphones{
+        font-size:70px;
+        position:absolute;
+        top:180%;
+        left:15%;
+    }
+    .imghd{
+        position:absolute;
+        top:185%;
+        left:15%;
+        
+    }
+    .imgip{
+        height:60px;
+        width:60px;
+        position:absolute;
+        top:188%;
+        left:115%;
+        
+    }
+    .airpod{
+        font-size:70px;
+        position:absolute;
+        top:180%;
+        left:155%;
+    }
+    .spe{
+        font-size: 40px;
+        position:absolute;
+        top:240%;
+        left:15%;
+    }
+    .spec{
+        font-size: 35px;
+        position:absolute;
+        top:1550px;
+        left:160%;
+    }
+    .speco#phf,.speco#phr{
+        display: none;
+    } 
+    .topi,.topicc{
+        display: none;
+    }
+    .notwo{
+        position:absolute;
+        top:270%;
+        left:35%;
+    }
+    .nothree{
+        position:absolute;
+        top:270%;
+        left:165%;
+    }
+
+
+
+    /* page3 */
+    .laptop{
+        position:absolute;
+        top:350%;
+        left:8%;
+    }
+    .cno{
+        position:absolute;
+        top:370%;
+        left:15%;
+        font-size: 40px;
+    }
+    .cnt{
+        position:absolute;
+        top:385%;
+        left:15%;
+        font-size: 40px;
+    }
+    .cnr{
+        position:absolute;
+        top:393%;
+        left:15%;
+        font-size: 40px;
+    }
+    .nofour{
+        position:absolute;
+        top:405%;
+        left:45%;
+    }
+    
+    /* page4 */
+    .speak{
+        position:absolute;
+        top:530%;
+        left:8%;
+    }
+    .sp{
+        position:absolute;
+        top:555%;
+        left:40%;
+        font-size: 60px;
+    }
+    .nofive{
+        position:absolute;
+        top:585%;
+        left:70%;
+    }
+
+
+    /* page5 */
+    .redo{
+        height:130px;
+        width:280px;
+        position:absolute;
+        top:710%;
+        left:15%;
+    }
+    .shoe{
+        font-size:80px;
+        position:absolute;
+        top:713%;
+        left:17%;
+    }
+    .redt{
+        height:240px;
+        width:350px;
+        position:absolute;
+        top:740%;
+        left:20%;
+    }
+    .sho{
+        font-size: 60px;
+        position:absolute;
+        top:742%;
+        left:23%;
+    }
+    .sht{
+        display: none;
+    }
+    .nosix{
+        position:absolute;
+        top:785%;
+        left:73%;
+    }
+
+
+    /* page6 */
+    .watch{
+        position:absolute;
+        top:870%;
+        left:8%;
+    }
+    .wat{
+        position: absolute;
+        top:890%;
+        left:22%;
+        font-size:70px;
+    }
+    .wats{
+        position:absolute;
+        top:900%;
+        left:22%;
+        font-size:70px;
+    }
+    .noseven{
+        position:absolute;
+        top:940%;
+        left:73%;
+    }
+
+
+    /* pages7 */
+    .cloth{
+        position:absolute;
+        top:1030%;
+        left:8%;
+    }
+    .clo{
+        height:120px;
+        width:290px;
+        position:absolute;
+        top:1030%;
+        left:6%;
+    }
+    .clt{
+        height:600px;
+        width:900px;
+        position:absolute;
+        top:1060%;
+        left:10%;
+    }
+    .cloo{
+        position:absolute;
+        top:1070%;
+        left:12%;
+    }
+    .clot{
+        position:absolute;
+        top:1083%;
+        left:40%;
+    }
+    .clor{
+        position:absolute;
+        top:1095%;
+        left:100%;
+    }
+    .clof{
+        position:absolute;
+        top:1108%;
+        left:147%;
+    }
+    .noeight{
+        position:absolute;
+        top:1155%;
+        left:140%;
+    }
+
+
+    /* page8 */
+    .bags{
+        position:absolute;
+        top:1210%;
+        left:10%;
+    }
+    .bgo{
+        position:absolute;
+        top:1235%;
+        left:90%;
+    }
+    .bgt{
+        position:absolute;
+        top:1250%;
+        left:90%;
+    }
+    .bgr{
+        position:absolute;
+        top:1280%;
+        left:90%;
+    }
+    .nonine{
+        position:absolute;
+        top:1310%;
+        left:85%;
+    }
+
+
+    /* aboutpage */
+    .about{
+        position:absolute;
+        top:1380%;
+        left:5%;
+        font-size: 100px;
+    }
+    .logonames{
+        width:170px;
+        position:absolute;
+        top:1400%;
+        left:5%;
+        font-size: 30px;
+    }
+    .maincontent{
+        position: absolute;
+        top:1418%;
+        left:5%;
+    }
+    .des,.deso{
+        display: none;
+    }
+    .followus{
+        font-size:20px;
+        position: absolute;
+        top:1530%;
+        left:80%;
+    }
+    .twit{
+        height:30px;
+        width:30px;
+        position: absolute;
+        top:1530%;
+        left:102%;
+    }
+    .fb{
+        height:30px;
+        width:30px;
+        position: absolute;
+        top:1530%;
+        left:110%;
+    }
+    .ins{
+        height:30px;
+        width:30px;
+        position: absolute;
+        top:1530%;
+        left:118%;
+    }
+    .copy{
+       position: absolute;
+       top:1529%;
+       left:4%;
+    }
+}
+
+
+
+
+
+/* mobile medium */
+@media only screen and (max-width :376px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 240%;
+    }
+    .boxo{
+        width:1030px;
+    }
+    .menu{
+        position:absolute;
+        top:4%;
+        left:235%;
+        display:block;
+    }
+    .lno,.lnt,.lnf{
+        display:none;
+    }
+    
+    .logoone{
+        display: none;
+    }
+    .homepagephoto{
+        height: 1100px;
+        width: 1030px;
+    }
+    p.homedes{
+        font-size:70px;
+        position:absolute;
+        top:500%;
+        left:4%;
+    }
+    .noone{
+        position:absolute;
+        top:700%;
+        left:40%;
+    }
+    .pagetwo{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pagethree{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pagefour{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pagefive{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pagesix{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pageseven{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pageeight{
+        height: 1100px;
+        width: 1030px;
+    }
+    .pageabout{
+        height: 1100px;
+        width: 1030px;
+    }
+    .hdp{
+        height: 520px;
+        width: 380px;
+        position:absolute;
+        top:200%;
+        left:8%;
+    }
+    .quote{
+        display: none;
+    }
+    .on,.off,.world{
+        display: none;
+    }
+    .apd{
+        height: 520px;
+        width: 380px;
+        position:absolute;
+        top:200%;
+        left:160%;
+    }
+    .headphones{
+        font-size:70px;
+        position:absolute;
+        top:180%;
+        left:15%;
+    }
+    .imghd{
+        position:absolute;
+        top:185%;
+        left:15%;
+        
+    }
+    .imgip{
+        height:60px;
+        width:60px;
+        position:absolute;
+        top:188%;
+        left:135%;
+        
+    }
+    .airpod{
+        font-size:70px;
+        position:absolute;
+        top:180%;
+        left:155%;
+    }
+    .spe{
+        font-size: 40px;
+        position:absolute;
+        top:240%;
+        left:15%;
+    }
+    .spec{
+        font-size: 35px;
+        position:absolute;
+        top:1550px;
+        left:185%;
+    }
+    .speco#phf,.speco#phr{
+        display: none;
+    } 
+    .topi,.topicc{
+        display: none;
+    }
+    .notwo{
+        position:absolute;
+        top:270%;
+        left:35%;
+    }
+    .nothree{
+        position:absolute;
+        top:270%;
+        left:195%;
+    }
+
+
+
+    /* page3 */
+    .laptop{
+        position:absolute;
+        top:350%;
+        left:8%;
+    }
+    .cno{
+        position:absolute;
+        top:370%;
+        left:15%;
+        font-size: 40px;
+    }
+    .cnt{
+        position:absolute;
+        top:385%;
+        left:15%;
+        font-size: 40px;
+    }
+    .cnr{
+        position:absolute;
+        top:393%;
+        left:15%;
+        font-size: 40px;
+    }
+    .nofour{
+        position:absolute;
+        top:410%;
+        left:45%;
+    }
+    
+    /* page4 */
+    .speak{
+        position:absolute;
+        top:530%;
+        left:8%;
+    }
+    .sp{
+        position:absolute;
+        top:555%;
+        left:40%;
+        font-size: 60px;
+    }
+    .nofive{
+        position:absolute;
+        top:585%;
+        left:70%;
+    }
+
+
+    /* page5 */
+    .redo{
+        height:130px;
+        width:280px;
+        position:absolute;
+        top:710%;
+        left:15%;
+    }
+    .shoe{
+        font-size:80px;
+        position:absolute;
+        top:713%;
+        left:17%;
+    }
+    .redt{
+        height:300px;
+        width:350px;
+        position:absolute;
+        top:740%;
+        left:20%;
+    }
+    .sho{
+        font-size: 60px;
+        position:absolute;
+        top:742%;
+        left:23%;
+    }
+    .sht{
+        display: none;
+    }
+    .nosix{
+        position:absolute;
+        top:795%;
+        left:73%;
+    }
+
+
+    /* page6 */
+    .watch{
+        position:absolute;
+        top:870%;
+        left:8%;
+    }
+    .wat{
+        position: absolute;
+        top:890%;
+        left:22%;
+        font-size:70px;
+    }
+    .wats{
+        position:absolute;
+        top:915%;
+        left:22%;
+        font-size:70px;
+    }
+    .noseven{
+        position:absolute;
+        top:960%;
+        left:73%;
+    }
+
+
+    /* pages7 */
+    .cloth{
+        position:absolute;
+        top:1030%;
+        left:8%;
+    }
+    .clo{
+        height:120px;
+        width:290px;
+        position:absolute;
+        top:1030%;
+        left:6%;
+    }
+    .clt{
+        height:650px;
+        width:900px;
+        position:absolute;
+        top:1060%;
+        left:10%;
+    }
+    .cloo{
+        position:absolute;
+        top:1070%;
+        left:12%;
+    }
+    .clot{
+        position:absolute;
+        top:1083%;
+        left:45%;
+    }
+    .clor{
+        position:absolute;
+        top:1109%;
+        left:107%;
+    }
+    .clof{
+        position:absolute;
+        top:1122%;
+        left:160%;
+    }
+    .noeight{
+        position:absolute;
+        top:1165%;
+        left:170%;
+    }
+
+
+    /* page8 */
+    .bags{
+        position:absolute;
+        top:1210%;
+        left:10%;
+    }
+    .bgo{
+        position:absolute;
+        top:1235%;
+        left:110%;
+    }
+    .bgt{
+        position:absolute;
+        top:1250%;
+        left:110%;
+    }
+    .bgr{
+        position:absolute;
+        top:1280%;
+        left:110%;
+    }
+    .nonine{
+        position:absolute;
+        top:1310%;
+        left:100%;
+    }
+
+
+    /* aboutpage */
+    .about{
+        position:absolute;
+        top:1380%;
+        left:5%;
+        font-size: 100px;
+    }
+    .logonames{
+        width:170px;
+        position:absolute;
+        top:1400%;
+        left:5%;
+        font-size: 30px;
+    }
+    .maincontent{
+        position: absolute;
+        top:1418%;
+        left:5%;
+    }
+    .des,.deso{
+        display: none;
+    }
+    .followus{
+        font-size:15px;
+        position: absolute;
+        top:1530%;
+        left:95%;
+    }
+    .twit{
+        height:20px;
+        width:20px;
+        position: absolute;
+        top:1530%;
+        left:117%;
+    }
+    .fb{
+        height:20px;
+        width:20px;
+        position: absolute;
+        top:1530%;
+        left:125%;
+    }
+    .ins{
+        height:20px;
+        width:20px;
+        position: absolute;
+        top:1530%;
+        left:133%;
+    }
+    .copy{
+        position: absolute;
+        top:1529%;
+        left:4%;
+    }
+}
+
+
+
+
+
+/* Tablet mode */
+@media only screen and (min-width :427px) and (max-width:768px){
+    .homepagephoto{
+        width: 198%;
+        height:200%;
+    }
+    .pagetwo{
+        width: 198%;
+        height:200%;
+    }
+    .pagethree{
+        width: 198%;
+        height:200%;
+    }
+    .pagefour{
+        width: 198%;
+        height:200%;
+    }
+    .pagefive{
+        width: 198%;
+        height:200%;
+    }
+    .pagesix{
+        width: 198%;
+        height:200%;
+    }
+    .pageseven{
+        width: 198%;
+        height:200%;
+    }
+    .pageeight{
+        width: 198%;
+        height:200%;
+    }
+    .pageabout{
+        width: 198%;
+        height:200%;
+    }
+    .boxo{
+        width: 198%;
+    }
+    .logoone{
+        position: absolute;
+        top:3%;
+        left:183%;
+    }
+
+
+
+    /* page2 */
+    .headphones{
+        position: absolute;
+        top:162%;
+        left:15%;
+    }
+    .airpod{
+        position: absolute;
+        top:162%;
+        left:128%;
+    }
+    .apd{
+        position: absolute;
+        top:180%;
+        left:121%;
+    }
+    .hdp{
+        position: absolute;
+        top:180%;
+        left:15%;
+    }
+    .spec{
+        position: absolute;
+        top:10%;
+        left:150%;
+    }
+    .topi,.topicc{
+        display: none;
+    }
+    .spe{
+        position: absolute;
+        top:240%;
+        left:24%;
+    }
+    .spec{
+        position: absolute;
+        top:226%;
+        left:135%;
+        font-size: 30px;
+    }
+    .imghd{
+        position: absolute;
+        top:180%;
+        left:22%;
+    }
+    .imgip{
+        position: absolute;
+        top:170%;
+        left:110%;
+    }
+    .notwo{
+        position: absolute;
+        top:270%;
+        left:40%;
+    }
+    .nothree{
+        position: absolute;
+        top:270%;
+        left:150%;
+    }
+
+
+
+    /* page3 */
+    .laptop{
+        position:absolute;
+        top:330%;
+        left:10%;
+    }
+    .cno{
+        position:absolute;
+        top:350%;
+        left:20%;
+    }
+    .cnt{
+        position:absolute;
+        top:375%;
+        left:20%;
+    }
+    .cnr{
+        position:absolute;
+        top:388%;
+        left:20%;
+    }
+    .nofour{
+        position:absolute;
+        top:410%;
+        left:65%;
+    }
+
+
+
+    /* page4 */
+    .speak{
+        position:absolute;
+        top:485%;
+        left:10%;
+    }
+    .sp{
+        position:absolute;
+        top:510%;
+        left:35%;
+        font-size: 55px;
+    }
+    .nofive{
+        position:absolute;
+        top:530%;
+        left:70%;
+    }
+
+
+    /* page5 */
+    .redo{
+        height: 120px;
+        width:340px;
+        position: absolute;
+        top:660%;
+        left:10%;
+    }
+    .shoe{
+        font-size: 85px;
+        position: absolute;
+        top:662%;
+        left:13%;
+    }
+    .redt{
+        height:350px;
+        width:650px;
+        position: absolute;
+        top:690%;
+        left:18%;
+    }
+    .sho{
+        position:absolute;
+        top:692%;
+        left:20%;
+    }
+    .sht{
+        position:absolute;
+        top:717%;
+        left:20%;
+    }
+    .nosix{
+        position:absolute;
+        top:750%;
+        left:65%;
+    }
+
+
+
+    /* page6 */
+    .watch{
+        position:absolute;
+        top:810%;
+        left:10%;
+    }
+    .wat{
+        position:absolute;
+        top:840%;
+        left:40%;
+    }
+    .wats{
+        position:absolute;
+        top:855%;
+        left:40%;
+    }
+    .noseven{
+        position:absolute;
+        top:887%;
+        left:70%;
+    }
+
+
+
+    /* page7 */
+    .cloth{
+        position:absolute;
+        top:960%;
+        left:10%;
+    }
+    .clo{
+        height: 130px;
+        width:300px;
+        position:absolute;
+        top:958%;
+        left:8%;
+    }
+    .clt{
+        position:absolute;
+        top:985%;
+        left:30%;
+    }
+    .cloo{
+        position:absolute;
+        top:987%;
+        left:32%;
+    }
+    .clot{
+        position:absolute;
+        top:1000%;
+        left:35%;
+    }
+    .clor{
+        position:absolute;
+        top:1013%;
+        left:85%;
+    }
+    .clof{
+        position:absolute;
+        top:1026.5%;
+        left:113%;
+    }
+    .noeight{
+        position:absolute;
+        top:1070%;
+        left:130%;
+    }
+
+
+
+    /* page8 */
+    .bags{
+        position:absolute;
+        top:1118%;
+        left:10%;
+    }
+    .bgo{
+        position:absolute;
+        top:1140%;
+        left:85%;
+    }
+    .bgt{
+        position:absolute;
+        top:1155%;
+        left:85%;
+    }
+    .bgr{
+        position:absolute;
+        top:1185%;
+        left:85%;
+    }
+    .nonine{
+        position:absolute;
+        top:1210%;
+        left:80%;
+    }
+
+
+
+
+
+    /* aboutpage */
+    .about{
+        position:absolute;
+        top:1270%;
+        left:10%;
+    }
+    .sym{
+        position: absolute;
+        top:1270%;
+        left:140%;
+    }
+    .logonames{
+        position:absolute;
+        top:1295%;
+        left:12%;
+    }
+    .maincontent{
+        position:absolute;
+        top:1305%;
+        left:15%;
+    }
+    .des{
+        position:absolute;
+        top:1315%;
+        left:12%;
+    }
+    .deso{
+        position:absolute;
+        top:1322%;
+        left:12%;
+    }
+    .followus{
+        position: absolute;
+        top:1432%;
+        left:90%;
+    }
+    .copy{
+        position:absolute;
+        top:1432%;
+        left:5%;
+    }
+    .fb{
+        position:absolute;
+        top:1432%;
+        left:99%;
+    }
+    .twit{
+        position:absolute;
+        top:1432%;
+        left:102%;
+    }
+    .ins{
+        position:absolute;
+        top:1432%;
+        left:105%;
+    }
+}
